@@ -1,0 +1,11 @@
+a=int(input("Enter the number of element"))
+list=[]
+for i in range(a):
+	x=int(input("Enter the number into the list "))
+	list.append(x)
+b=min(list)
+c=max(list)
+print(list)
+print(b,"is the min value in the list")
+print(c,"is the max value in the list ")
+
