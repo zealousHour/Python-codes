@@ -1,0 +1,20 @@
+class Animals:
+    def intro(self):
+        print("There are different types of animals")
+    def type (self):
+        print("Some of the animals are terrestrial and some are aquatic ")
+class shark (Animals):
+    def type (self):
+        print("Sharks are aquatic animals")
+class lion (Animals):
+    def type (self):
+        print("lions are terrestrial")
+obj_animal= Animals()
+obj_shark=shark()
+obj_lion=lion()
+obj_animal.intro()
+obj_animal.type()
+obj_shark.intro()
+obj_shark.type()
+obj_lion.intro()
+obj_lion.type()
