@@ -1,0 +1,10 @@
+x= int(input("Enter the number of fibonacci series you want "))
+count,num,num1,num2=0,0,0,1
+while count<x:
+    print(num1)
+    num=num1+num2
+    num1=num2
+    num2=num
+    count=count+1
+
+
