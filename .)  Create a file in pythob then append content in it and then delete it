@@ -1,0 +1,8 @@
+import os
+f=open("demo.txt","a")
+a=int(input("Enter number of lines to be entered :"))
+for i in range(a):
+    x=str(input("Enter the content to be added :"))
+    f.write(x)
+f.close()
+os.remove("demo.txt")
